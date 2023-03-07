@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Natani Harumi</title>
+
+    <link rel="shortcut icon" href="imagem/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header> <h1>&#x1F451 Elogios &#x1F451</h1></header>
+   
+    <nav>
+        <a href="index.html.html">Início</a>
+        <a href="quemsoueu.html.html">Quem sou eu?</a>
+        <a href="lola.html">Lola</a>
+        <a href="familia.html">Familia</a>      
+    </nav>
+    <main>
+        <article class="form" >
+            
+            <form action="cadastro.html" method="post" autocomplete="on">
+                <div>
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <p>
+                            <label for="inome">Nome:</label>
+                            <input type="text" name="nome" id="inome" required>
+                        </p>
+                        <p>
+                            <label for="idob">Data de Nascimento</label>
+                            <input type="date" name="dob" id="idob" required> 
+                        </p>
+                        <p>
+
+                        </p>
+                    </fieldset>
+                        <p>
+                            <fieldset>
+                                <legend>Sexo</legend>
+                                <label for="isexf">Feminino</label>
+                                <input type="radio" name="sex" id="isexf" required> 
+                                <label for="isexm">Masculino</label>
+                                <input type="radio" name="sex" id="isexm" required>
+                            </fieldset>
+                            
+                        </p>
+                        <label for="imeu">Você é meu/minha:</label>
+                        <select name="meu" id="imeu">
+                            <optgroup label="Parente">
+                                <option value="pai">Pai</option>
+                                <option value="mae">Mãe</option>
+                                <option value="irmao">Irmão</option>
+                                <option value="irma">Irmã</option>
+                                <option value="marido">Marido</option>
+                            </optgroup>
+                            
+                            <optgroup label="Amigas">
+                                <option value="macona">Amiga Maçona</option>
+                                <option value="amigafac">Amiga da Faculdade</option>
+                                <option value="amigaesc">Amiga da Escola</option>
+                                <option value="outros">Amiga do Trabalho</option>
+                            </optgroup>
+                        </select>
+                        <br> <br>
+                        <fieldset>
+                            <legend>Qualidades</legend>
+                            <p>Selecione as minhas maiores qualidades:</p>
+                            <input type="checkbox" name="bon" id="ibon">
+                            <label for="ibon">Bonita</label> <br>
+                            <input type="checkbox" name="sim" id="isim">
+                            <label for="isim">Simpatica</label> <br>
+                            <input type="checkbox" name="hum" id="ihum">
+                            <label for="ihum">Humilde</label> <br>
+                            <input type="checkbox" name="ama" id="iama">
+                            <label for="iama">Amável</label> <br>
+                            <input type="checkbox" name="ini" id="iini">
+                            <label for="iini">Inimiga do Fim</label> <br>
+                            <input type="checkbox" name="sinc" id="isinc">
+                            <label for="isinc">Sincera</label>
+                        </fieldset>
+                    <br>
+                    <p>
+                        <label for="inum">De 0 a 10, o quanto você me ama?</label> <br>
+                        <input type="range" name="num" id="inum" min="0" max="10" value="5" oninput="ival.innerHTML = Number(inum.value)">
+                        <output id="ival">5</output>
+                    </p>
+                    
+
+                        
+                       
+
+                  
+                    
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </div>
+
+
+            </form>
+        </article>
+    </main>
+
+</body>
+</html>
