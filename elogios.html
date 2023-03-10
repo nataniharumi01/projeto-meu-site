@@ -30,7 +30,7 @@
                         <legend>Dados Pessoais</legend>
                         <p>
                             <label for="inome">Nome:</label>
-                            <input type="text" name="nome" id="inome" required>
+                            <input type="text" name="nome" id="inome" required placeholder="Nome completo">
                         </p>
                         <p>
                             <label for="idob">Data de Nascimento</label>
@@ -89,6 +89,10 @@
                         <label for="inum">De 0 a 10, o quanto você me ama?</label> <br>
                         <input type="range" name="num" id="inum" min="0" max="10" value="5" oninput="ival.innerHTML = Number(inum.value)">
                         <output id="ival">5</output>
+                    </p>
+                    <p>
+                        <label for="ielo">Deixe seu Elogio!</label> <br>
+                        <textarea name="elo" id="ielo" cols="30" rows="10" placeholder="Escreva aqui"></textarea>
                     </p>
                     
 
