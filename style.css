@@ -76,6 +76,7 @@ article{
     color: var(--cor-texto);
     font-family: var(--fonte-padrao);
     padding: 0px 0px 10px 0px;
+    display: block;
     
 
 }
